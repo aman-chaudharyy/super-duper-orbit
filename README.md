@@ -1,11 +1,18 @@
 # GitHub Codespaces ♥️ Django
-
-Welcome to your shiny new Codespace running Django! We've got everything fired up and running for you to explore Django.
-
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
-
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
-
+Steps to create the app:
+Create an account on https://github.com  
+Create a codespace https://github.com/codespaces
+Set Codespace timeout to 240 minutes. (maximum)
+Start a codespace
+Create a django or flask application with an /htop endpoint
+Add a port with public visibility to serve the application
+DO NOT STOP THE CODESPACE as the endpoint should keep working.
+/htop endpoint should print the below data on the webpage.
+Name - your full name
+Username - system username
+Server Time in IST
+Top output
+Example page would look like below. Test this endpoint in the incognito tab before submitting for the test.
 ## installing dependancies
 
 ```python
